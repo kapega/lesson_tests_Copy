@@ -22,7 +22,7 @@
 					throw new Exception('файл был получен, но это не json');
 				// читаем файл из своего хранилища загруженных тестов
 				$tests_file = file_get_contents('tests.json');						
-				$json = json_decode($tests_file); // из файла json получаем структуры php
+				$json = json_decode($tests_file, true); // из файла json получаем структуры php
 				// $json - массив тестов
 				$json[] = $json_test;
 				// сохраняем

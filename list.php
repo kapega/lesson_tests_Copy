@@ -4,12 +4,13 @@
     <title>Тест</title>
 </head>
 <body>
-<h1>Кто хочет стать миллионером</h1>
-<form enctype="multipart/form-data" method="GET">
-    <label><strong>Выбери тест:</strong></label><br>
-    <input type="radio" name="mytest" value="1" checked>Eng<br><br>
-	<input type="radio" name="mytest" value="2" checked>Rus<br><br>
-    <input type="submit" formaction="test.php" name="RunTest" value="Пройти тест">
-</form>
+<h1>Тесты</h1>
+<?php
+	$tests_file = file_get_contents('tests.json');
+	$json = json_decode($tests_file, true); // из файла json получаем структуры php
+	foreach ($json as $index => $test) {
+		echo "<p><a href='test.php?test={$index}'>{$test['test_name']}</a></p>";
+	}
+?>
 </body>
 </html>

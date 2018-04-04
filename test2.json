@@ -7,7 +7,7 @@
 			{"a": "сделать сегодня", "correct": true},
 			{"a": "сделать послезавтра", "correct": false},
 			{"a": "сделать через месяц", "correct": false},
-                        {"a": "никогда не делать", "correct": false}
+			{"a": "никогда не делать", "correct": false}
 		]
 	  },
 	  {
@@ -16,7 +16,7 @@
 			{"a": "попало в лоб", "correct": false},
 			{"a": "залетело в рот", "correct": false},
 			{"a": "бросилось в глаза", "correct": true},
-                        {"a": "накапало в уши", "correct": false}
+			{"a": "накапало в уши", "correct": false}
 		]
 	  },
 	  {
@@ -25,7 +25,7 @@
 			{"a": "путепровод", "correct": false},
 			{"a": "путеукладчик", "correct": false},
 			{"a": "путеводитель", "correct": true},
-                        {"a": "путеводная цвезда", "correct": false}
+			{"a": "путеводная цвезда", "correct": false}
 		]
 	  },
 	  {
@@ -34,7 +34,7 @@
 			{"a": "Вера", "correct": false},
 			{"a": "Надежда", "correct": false},
 			{"a": "Любовь", "correct": false},
-                        {"a": "Софья", "correct": true}
+			{"a": "Софья", "correct": true}
 		]
 	  },
 	  {
@@ -43,7 +43,7 @@
 			{"a": "рельс", "correct": true},
 			{"a": "огурец", "correct": false},
 			{"a": "гребешок", "correct": false},
-                        {"a": "узел", "correct": false}
+			{"a": "узел", "correct": false}
 		]
 	  }
 	]
